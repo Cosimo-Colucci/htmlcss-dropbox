@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+.header-size{
+    height: 5em;
+}
+
+.nav-size{
+    height: 100%;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.no-style{
+    list-style: none;
+}
+
+.main-button{
+    background-color: #0061ff;
+    color: white;
+    padding: .5rem 1rem;
+}
+
+nav>ul{
+    font-size: 1.3rem;
+}
