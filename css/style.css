@@ -32,7 +32,7 @@
 
 .margin-auto{
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
 }
 
 
@@ -58,6 +58,9 @@
     padding: .5rem 1rem;
 }
 
+.jumbo-size{
+    width: 1000px;
+}
 
 /* selettori tramite tipo*/
 nav>ul{
@@ -66,9 +69,19 @@ nav>ul{
 
 section.container-big{
     height: 740px;
+    
     background-color: #b4d0e7;
 }
-
+section.container-small{
+    width: 800px;
+    height: 500px;
+    background-color: red;
+}
 img{
     size: 50%;
+}
+
+div.type-of-plane{
+    height: 500px;
+    
 }
