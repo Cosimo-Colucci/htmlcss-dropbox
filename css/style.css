@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* utility*/
 .flex{
     display: flex;
 }
@@ -16,7 +16,12 @@
     align-items: center;
 }
 
+.margin-auto{
+    text-align: center;
+    margin: 0 auto;
+}
 
+/* utility specifiche*/
 .header-size{
     height: 5em;
 }
@@ -37,6 +42,13 @@
     padding: .5rem 1rem;
 }
 
+
+/* selettori tramite tipo*/
 nav>ul{
     font-size: 1.3rem;
+}
+
+section.container-big{
+    height: 740px;
+    background-color: blueviolet;
 }
