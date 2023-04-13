@@ -3,6 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
 /* utility*/
 .flex{
     display: flex;
@@ -20,6 +34,8 @@
     text-align: center;
     margin: 0 auto;
 }
+
+
 
 /* utility specifiche*/
 .header-size{
@@ -50,5 +66,9 @@ nav>ul{
 
 section.container-big{
     height: 740px;
-    background-color: blueviolet;
+    background-color: #b4d0e7;
+}
+
+img{
+    size: 50%;
 }
