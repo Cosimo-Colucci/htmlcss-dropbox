@@ -4,12 +4,7 @@
     box-sizing: border-box;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
+/* utility*/
 .float-left{
     float: left;
 }
@@ -17,7 +12,15 @@
 .float-right{
     float: right;
 }
-/* utility*/
+
+.no-style{
+    list-style: none;
+}
+
+.font-h1{
+    font-size: 5rem;
+}
+
 .flex{
     display: flex;
 }
@@ -39,6 +42,9 @@
 }
 
 
+
+
+
 /* utility specifiche*/
 .header-size{
     height: 5em;
@@ -50,10 +56,6 @@
     padding: 1rem 0;
 }
 
-.no-style{
-    list-style: none;
-}
-
 .main-button{
     background-color: #0061ff;
     color: white;
@@ -61,8 +63,21 @@
 }
 
 .jumbo-size{
-    width: 1000px;
+    width: 75%;
 }
+
+.column-30{
+    background-color: yellow;
+    height: 550px;
+    width: 30%;
+
+}
+.column-70{
+    height: 550px;
+    width: 70%;
+    background-color: yellowgreen;
+}
+
 
 .singolo, .team, .azienda{
     width: calc(100% / 3);
@@ -73,29 +88,26 @@
 }
 
 /* selettori tramite tipo*/
+
 nav>ul{
     font-size: 1.3rem;
 }
 
 section.container-big{
     height: 740px;
-    
     background-color: #b4d0e7;
 }
+
 section.container-small{
     width: 800px;
     height: 500px;
     background-color: red;
 }
-img{
-    size: 50%;
-}
 
 div.type-of-plane{
     height: 500px;   
     background-color: aqua;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 div.type-of-plan ul {
@@ -105,3 +117,13 @@ div.type-of-plan ul {
 hr.small{
     width: 15%;
 }
+
+
+
+
+/* selezione id*/
+#jumbo-png{
+    height: 115%;
+}
+
+/*prova*/
