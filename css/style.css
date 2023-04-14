@@ -83,5 +83,8 @@ img{
 
 div.type-of-plane{
     height: 500px;
+    width: calc(100% / 3);
+    background-color: aqua;
+    justify-content: space-between;
     
 }
