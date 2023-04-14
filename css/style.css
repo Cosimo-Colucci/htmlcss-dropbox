@@ -91,24 +91,28 @@
     color: #0061ff;
 }
 
-/* selettori tramite tipo*/
-
-nav>ul{
-    font-size: 1.3rem;
-}
-
-section.container-big{
+.container-big{
     height: 740px;
     background-color: #b4d0e7;
 }
 
-section.container-small{
+.container-small{
     width: 800px;
     height: 500px;
     background-color: red;
     /*da rimuovere*/
     margin: 9rem auto;
 }
+
+/* selettori tramite tipo*/
+
+nav>ul{
+    font-size: 1.3rem;
+}
+
+
+
+
 
 div.type-of-plane{
     height: 500px;   
