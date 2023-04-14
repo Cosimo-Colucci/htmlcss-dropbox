@@ -127,3 +127,8 @@ hr.small{
 }
 
 /*prova*/
+div.enterprise{
+    background-color: lime;
+    width: 100%;
+    height: 150px;
+}
