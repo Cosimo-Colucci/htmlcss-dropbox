@@ -25,6 +25,10 @@
     display: flex;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -144,6 +148,9 @@ div.text-partner{
     position: absolute;
 }
 
+div.list-business{
+    width: calc(90% / 3);
+}
 
 /* selezione id*/
 #jumbo-png{
