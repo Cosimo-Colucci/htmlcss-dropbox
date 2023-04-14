@@ -34,7 +34,9 @@
     text-align: center;
     margin: auto;
 }
-
+.align-left{
+    text-align: left;
+}
 
 
 /* utility specifiche*/
@@ -62,6 +64,14 @@
     width: 1000px;
 }
 
+.singolo, .team, .azienda{
+    width: calc(100% / 3);
+}
+
+.check-blu{
+    color: #0061ff;
+}
+
 /* selettori tramite tipo*/
 nav>ul{
     font-size: 1.3rem;
@@ -82,9 +92,16 @@ img{
 }
 
 div.type-of-plane{
-    height: 500px;
-    width: calc(100% / 3);
+    height: 500px;   
     background-color: aqua;
     justify-content: space-between;
     
+}
+
+div.type-of-plan ul {
+    margin: 1rem 0;
+}
+
+hr.small{
+    width: 15%;
 }
