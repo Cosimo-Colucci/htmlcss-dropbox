@@ -102,6 +102,8 @@ section.container-small{
     width: 800px;
     height: 500px;
     background-color: red;
+    /*da rimuovere*/
+    margin: 9rem auto;
 }
 
 div.type-of-plane{
@@ -118,7 +120,29 @@ hr.small{
     width: 15%;
 }
 
+div.enterprise{
+    background-color: lime;
+    width: 100%;
+    height: 150px;
+}
 
+section.partner{
+    position: relative;
+}
+
+div.img-partner{
+    width: 65%;
+    height: 50px;
+    position: relative;
+}
+
+div.text-partner{
+    width: 35%;
+    height: 50px;
+    left: 65%;
+    top: 0;
+    position: absolute;
+}
 
 
 /* selezione id*/
@@ -127,8 +151,3 @@ hr.small{
 }
 
 /*prova*/
-div.enterprise{
-    background-color: lime;
-    width: 100%;
-    height: 150px;
-}
