@@ -194,4 +194,8 @@ div.square{
 
 /*prova*/
 
-
+footer.lower{
+    background-color: black;
+    color: white;
+    height: 600px;
+}
