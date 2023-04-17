@@ -162,3 +162,10 @@ div.list-business{
 }
 
 /*prova*/
+
+
+section div.squared-container{
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
+    background-color: burlywood;
+}
